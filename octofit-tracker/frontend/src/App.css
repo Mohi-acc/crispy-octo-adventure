@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(135deg, #f0f4f9 0%, #dbeafe 100%);
+  color: #1a237e;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #0d47a1;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Tables */
+.table {
+  background-color: #e3f2fd;
+  color: #1a237e;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.table thead {
+  background-color: #1976d2;
+  color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #bbdefb;
+}
+.table-hover > tbody > tr:hover {
+  background-color: #90caf9;
+}
+
+/* Buttons */
+.btn, .btn-primary {
+  background: linear-gradient(90deg, #1976d2 0%, #42a5f5 100%);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+.btn:hover, .btn-primary:hover {
+  background: linear-gradient(90deg, #1565c0 0%, #1e88e5 100%);
+  color: #fff;
+}
+
+/* Links */
+a, .nav-link {
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+a:hover, .nav-link:hover {
+  color: #0d47a1;
+  text-decoration: underline;
+}
+
+/* Navigation */
+.navbar {
+  background: linear-gradient(90deg, #1976d2 0%, #42a5f5 100%);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.1);
+}
+.navbar-brand {
+  color: #fff !important;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.navbar-nav .nav-link {
+  color: #fff !important;
+}
+.navbar-nav .nav-link.active {
+  color: #ffd600 !important;
+}
+
+/* Logo */
+.octofit-logo {
+  height: 40px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
